@@ -14,13 +14,7 @@ class Factorial {
         if (n == 0 || n == 1) return 1;
         return n * factorialRecursive(n - 1);
     }
-    // class Factorial {
-    // // Recursive
-    // public static long factorialRecursive(int n) {
-    //     if (n == 0 || n == 1) return 1;
-    //     return n * factorialRecursive(n - 1);
-    // }
-
+   
 
     // Iterative
     public static long factorialIterative(int n) {
